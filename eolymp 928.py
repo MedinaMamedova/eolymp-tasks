@@ -1,0 +1,5 @@
+n = int(input())
+a = input().split()
+a = list(map(lambda x: int(x) ,a))
+a.sort()
+print(a[0]+a[-1])
