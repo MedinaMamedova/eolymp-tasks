@@ -1,0 +1,5 @@
+a = input()
+b = input().split()
+b = list(map(lambda x: int(x) ,b))
+b.sort()
+print(b[-1])
